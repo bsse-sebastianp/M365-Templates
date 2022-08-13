@@ -1,0 +1,21 @@
+{
+          "@odata.type": "#microsoft.graph.webApp",
+          "displayName": "Microsoft Word Web",
+          "publisher": "",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": false,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "appUrl": "https://office.live.com/start/Word.aspx",
+          "useManagedBrowser": false
+}

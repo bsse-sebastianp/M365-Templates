@@ -1,0 +1,35 @@
+{
+          "@odata.type": "#microsoft.graph.iosStoreApp",
+          "displayName": "Microsoft Intune Company Portal",
+          "publisher": "Microsoft Corporation",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": null,
+          "developer": null,
+          "notes": null,
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": false,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "bundleId": "com.microsoft.CompanyPortal",
+          "appStoreUrl": "https://itunes.apple.com/us/app/microsoft-intune-company-portal/id719171358?mt=8",
+          "applicableDeviceType": {
+                    "iPad": true,
+                    "iPhoneAndIPod": true
+          },
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v9_0": true,
+                    "v10_0": false,
+                    "v11_0": false,
+                    "v12_0": false,
+                    "v13_0": false,
+                    "v14_0": false,
+                    "v15_0": false
+          }
+}

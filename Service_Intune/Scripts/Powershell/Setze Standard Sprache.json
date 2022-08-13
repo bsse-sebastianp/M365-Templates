@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Setze Standard Sprache",
+          "description": "Setzt Standard Sprache auf Deutsch.",
+          "scriptContent": "U2V0LVdpblVJTGFuZ3VhZ2VPdmVycmlkZSAtTGFuZ3VhZ2UgZGUtREUNClNldC1XaW5Vc2VyTGFuZ3VhZ2VMaXN0IGRlLURFIC1Gb3JjZQ0KU2V0LVdpblN5c3RlbUxvY2FsZSAtU3lzdGVtTG9jYWxlIGRlLURFDQpTZXQtQ3VsdHVyZSAtQ3VsdHVyZUluZm8gZGUtREUNClNldC1XaW5Ib21lTG9jYXRpb24gLUdlb0lkIDk0",
+          "runAsAccount": "system",
+          "fileName": "SetLanguageGerman.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

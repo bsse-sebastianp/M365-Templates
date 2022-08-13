@@ -1,0 +1,52 @@
+{
+          "@odata.type": "#microsoft.graph.windowsMobileMSI",
+          "displayName": "VLC media player 3.0.4 (64-bit)",
+          "publisher": "VideoLAN",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "vlc-3.0.4-win64.msi",
+          "size": 54563392,
+          "commandLine": "/qn",
+          "productCode": "{49988EA2-9ADF-4580-976F-CFC8EC484765}",
+          "productVersion": "3.0.4.0",
+          "ignoreVersionDetection": false,
+          "identityVersion": "3.0.4.0",
+          "useDeviceContext": null,
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "policySets",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Software Standard"
+                              }
+                    }
+          ]
+}

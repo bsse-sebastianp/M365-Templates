@@ -1,0 +1,410 @@
+{
+          "displayName": "Software Richtlinie Microsoft Edge",
+          "description": "",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "policyConfigurationIngestionType": "builtIn",
+          "definitionValues": [
+                    {
+                              "createdDateTime": "2020-11-12T14:36:48.468169Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "a4516fdd-ca03-4065-ace4-a70d6c3375ec",
+                              "lastModifiedDateTime": "2020-12-08T07:46:06.3937587Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Sites to open when the browser starts",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "6b96ca1a-d94a-4fa5-838d-bd849b3f6055",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "10cea3b0-e927-436c-a840-2117de0c722c",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueList",
+                                                  "lastModifiedDateTime": "2020-12-08T07:46:06.3937587Z",
+                                                  "createdDateTime": "2020-11-12T14:36:48.7181931Z",
+                                                  "id": "ffb0a38f-2aa7-48e9-ba46-0767c9d9d24c",
+                                                  "values": [
+                                                            {
+                                                                      "name": "https://www.google.de",
+                                                                      "value": null
+                                                            },
+                                                            {
+                                                                      "name": "https://moodle.eks-hu.de",
+                                                                      "value": null
+                                                            },
+                                                            {
+                                                                      "name": "https://portal.office.com",
+                                                                      "value": null
+                                                            },
+                                                            {
+                                                                      "name": "http://www.eks-hanau.de",
+                                                                      "value": null
+                                                            }
+                                                  ],
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationListBox",
+                                                            "label": "Sites to open when the browser starts",
+                                                            "id": "c145313a-435b-4bfd-8463-76f61872bd34",
+                                                            "lastModifiedDateTime": "2019-08-27T18:51:07.5971179Z",
+                                                            "explicitValue": false,
+                                                            "valuePrefix": ""
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T13:39:56.1603214Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "14376c22-bf71-4521-9aaf-b108a740bad2",
+                              "lastModifiedDateTime": "2020-11-11T13:49:23.2286737Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Hide the First-run experience and splash screen",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "24f984b6-e612-48dc-af6a-2d25fd4de698",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "5.0",
+                                        "version": "1.0",
+                                        "id": "50dfaaa3-c402-4dde-ae57-22e691e24906",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T13:39:56.1603214Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "e5f3c43b-fcd4-4b91-9cf3-feb2a7266f50",
+                              "lastModifiedDateTime": "2020-11-11T13:39:56.1603214Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Show Home button on toolbar",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "6b96ca1a-d94a-4fa5-838d-bd849b3f6055",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "5.0",
+                                        "version": "1.0",
+                                        "id": "ec97fcc1-3c4b-4d70-a46e-31fdc063f22c",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-12T14:36:48.4838191Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "cc95b2f8-54ab-4fcf-8398-3e01e16978db",
+                              "lastModifiedDateTime": "2020-11-12T14:36:48.4994431Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Action to take on startup",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "6b96ca1a-d94a-4fa5-838d-bd849b3f6055",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "a36e8608-52c2-4cc3-8488-32206719f62f",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+                                                  "lastModifiedDateTime": "2020-11-12T14:36:48.4994431Z",
+                                                  "createdDateTime": "2020-11-12T14:36:48.4994431Z",
+                                                  "id": "2abd3946-c502-41c0-b832-dfdf2912ee3d",
+                                                  "value": "4",
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationDropdownList",
+                                                            "label": "Action to take on startup",
+                                                            "id": "b6c6af51-90aa-4a77-b096-093a7d1e3811",
+                                                            "lastModifiedDateTime": "2019-08-27T18:51:07.5971179Z",
+                                                            "required": false,
+                                                            "defaultItem": {
+                                                                      "displayName": "Open a new tab",
+                                                                      "value": "5"
+                                                            },
+                                                            "items": [
+                                                                      {
+                                                                                "displayName": "Open a new tab",
+                                                                                "value": "5"
+                                                                      },
+                                                                      {
+                                                                                "displayName": "Restore the last session",
+                                                                                "value": "1"
+                                                                      },
+                                                                      {
+                                                                                "displayName": "Open a list of URLs",
+                                                                                "value": "4"
+                                                                      }
+                                                            ]
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T14:32:57.5996524Z",
+                              "enabled": false,
+                              "configurationType": "policy",
+                              "id": "79f75ced-ed56-4042-a49b-8029211c3142",
+                              "lastModifiedDateTime": "2020-11-11T14:32:57.5996524Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Allow websites to query for available payment methods",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "24f984b6-e612-48dc-af6a-2d25fd4de698",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "4025de42-0715-4e9e-b831-3afad6bb640e",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-10T08:19:02.115287Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "18a04a4a-49fb-4642-b727-3d8bfbd0795f",
+                              "lastModifiedDateTime": "2020-11-11T13:49:23.2286737Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Hide the First-run experience and splash screen",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "24f984b6-e612-48dc-af6a-2d25fd4de698",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "0435e712-3a28-410b-8cfb-8b4b44efe120",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T13:39:56.1446877Z",
+                              "enabled": false,
+                              "configurationType": "policy",
+                              "id": "33babb67-a1fd-4d7b-9733-60a811c650b5",
+                              "lastModifiedDateTime": "2020-11-11T13:39:56.1446877Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Allow websites to query for available payment methods",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "24f984b6-e612-48dc-af6a-2d25fd4de698",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "5.0",
+                                        "version": "1.0",
+                                        "id": "fe6a4802-6bcb-489d-a767-8fab6ff28046",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T14:32:57.6309436Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "aa9b4a90-b93e-4f67-8273-408304ee33a8",
+                              "lastModifiedDateTime": "2020-11-11T14:32:57.6309436Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Show Home button on toolbar",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "f509a1d4-d515-409a-94cf-19622e7f11fb",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "5.0",
+                                        "version": "1.0",
+                                        "id": "8b4c9402-29de-4051-ad74-9e9462bfe619",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T13:39:56.1603214Z",
+                              "enabled": false,
+                              "configurationType": "policy",
+                              "id": "abe97993-c5ad-4fd6-8d5c-745367dce33a",
+                              "lastModifiedDateTime": "2020-11-11T13:39:56.1603214Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Allow queries to a Browser Network Time service",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "954b11b3-216b-4dfc-8417-d6b557b884a7",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "5.0",
+                                        "version": "1.0",
+                                        "id": "f80a080f-5289-4358-91e2-a59bd6aae570",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T14:48:15.6404858Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "a88e8e2f-0f0e-4392-b41d-3f6a653fa648",
+                              "lastModifiedDateTime": "2020-11-11T14:48:16.0779675Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Disable changing home page settings",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "21eabaf4-311e-4250-b6f8-4cb692556644",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "5.0",
+                                        "version": "1.0",
+                                        "id": "0d8f8980-7aa9-4435-b124-ab400e736b53",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+                                                  "lastModifiedDateTime": "2020-11-11T14:48:16.0779675Z",
+                                                  "createdDateTime": "2020-11-11T14:48:16.0779675Z",
+                                                  "id": "f5b217e9-6f52-4000-b6b9-2ce670981828",
+                                                  "value": "https://www.google.de",
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationTextBox",
+                                                            "label": "Home Page",
+                                                            "id": "9e9aa0a3-a170-41ff-b7e2-98fc4fe7d349",
+                                                            "lastModifiedDateTime": "2018-06-14T22:32:34.6032883Z",
+                                                            "defaultValue": "",
+                                                            "required": true,
+                                                            "maxLength": 1023
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T13:49:22.8224005Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "9c68149e-acd9-48a8-aa08-f83230a43ec5",
+                              "lastModifiedDateTime": "2020-11-11T13:49:22.8224005Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Show Home button on toolbar",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "6b96ca1a-d94a-4fa5-838d-bd849b3f6055",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "eaca0db8-9673-4487-8055-d6dc037a3ef9",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T14:32:57.615261Z",
+                              "enabled": false,
+                              "configurationType": "policy",
+                              "id": "57709274-0bc2-4a5d-931f-86acf67be47f",
+                              "lastModifiedDateTime": "2020-11-11T14:32:57.615261Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Allow queries to a Browser Network Time service",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "954b11b3-216b-4dfc-8417-d6b557b884a7",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "6a97ca4b-41da-48aa-bcdd-e8c79ca7e75e",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2020-11-11T14:32:57.5996524Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "dc0f6740-3413-472e-ae70-77738258f7f6",
+                              "lastModifiedDateTime": "2020-11-11T14:32:57.5996524Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Show Home button on toolbar",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "f509a1d4-d515-409a-94cf-19622e7f11fb",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "5e4239e8-de87-4994-a5ca-f744e701d6b5",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    }
+          ],
+          "assignments": [
+                    {
+                              "lastModifiedDateTime": "2020-12-08T07:46:06.7239015Z",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.allLicensedUsersAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none"
+                              }
+                    },
+                    {
+                              "lastModifiedDateTime": "2020-12-08T07:46:06.7239015Z",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none"
+                              }
+                    }
+          ]
+}

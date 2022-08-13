@@ -1,0 +1,34 @@
+{
+          "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+          "displayName": "W10_Lehrergeraete",
+          "description": "Autopilot Registrierungsprofil f\u00fcr Lehrerger\u00e4te",
+          "language": "de-DE",
+          "enrollmentStatusScreenSettings": null,
+          "extractHardwareHash": true,
+          "deviceNameTemplate": "LEH-%SERIAL%",
+          "deviceType": "windowsPc",
+          "enableWhiteGlove": false,
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "managementServiceAppId": null,
+          "outOfBoxExperienceSettings": {
+                    "hidePrivacySettings": true,
+                    "hideEULA": true,
+                    "userType": "standard",
+                    "deviceUsageType": "shared",
+                    "skipKeyboardSelectionPage": true,
+                    "hideEscapeLink": true
+          },
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W10_Lehrergeraete"
+                              }
+                    }
+          ]
+}

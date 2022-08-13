@@ -1,0 +1,43 @@
+{
+          "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+          "displayName": "W10_Poolgeraete",
+          "description": "Autopilot Registrierungsprofil f\u00fcr Poolger\u00e4te",
+          "language": "de-DE",
+          "enrollmentStatusScreenSettings": null,
+          "extractHardwareHash": true,
+          "deviceNameTemplate": "POOL-%SERIAL%",
+          "deviceType": "windowsPc",
+          "enableWhiteGlove": false,
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "managementServiceAppId": null,
+          "outOfBoxExperienceSettings": {
+                    "hidePrivacySettings": true,
+                    "hideEULA": true,
+                    "userType": "standard",
+                    "deviceUsageType": "shared",
+                    "skipKeyboardSelectionPage": true,
+                    "hideEscapeLink": true
+          },
+          "assignments": [
+                    {
+                              "source": "policySets",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    },
+                    {
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W10_Poolgeraete"
+                              }
+                    }
+          ]
+}

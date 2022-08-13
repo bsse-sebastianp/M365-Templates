@@ -1,0 +1,92 @@
+{
+          "@odata.type": "#microsoft.graph.iosVppApp",
+          "displayName": "Microsoft Word",
+          "publisher": "Microsoft Corporation",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": "https://apps.apple.com/de/app/microsoft-word/id586447913",
+          "owner": null,
+          "developer": null,
+          "notes": null,
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "usedLicenseCount": 101,
+          "totalLicenseCount": 200,
+          "releaseDateTime": "2014-03-27T00:00:00Z",
+          "appStoreUrl": null,
+          "vppTokenOrganizationName": "Eugen Kaiser Schule",
+          "vppTokenAccountType": "education",
+          "vppTokenAppleId": "Administrator@eks-hanau.de",
+          "bundleId": "com.microsoft.Office.Word",
+          "vppTokenId": "13d9e57e-2899-4432-90e6-e97dd71b821e",
+          "licensingType": {
+                    "supportUserLicensing": true,
+                    "supportDeviceLicensing": true,
+                    "supportsUserLicensing": true,
+                    "supportsDeviceLicensing": true
+          },
+          "applicableDeviceType": {
+                    "iPad": true,
+                    "iPhoneAndIPod": true
+          },
+          "revokeLicenseActionResults": [],
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Schuelergeraete"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.iosVppAppAssignmentSettings",
+                                        "useDeviceLicensing": true,
+                                        "vpnConfigurationId": null,
+                                        "uninstallOnDeviceRemoval": null,
+                                        "isRemovable": null
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Lehrergeraete"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.iosVppAppAssignmentSettings",
+                                        "useDeviceLicensing": true,
+                                        "vpnConfigurationId": null,
+                                        "uninstallOnDeviceRemoval": null,
+                                        "isRemovable": null
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Poolgeraete"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.iosVppAppAssignmentSettings",
+                                        "useDeviceLicensing": true,
+                                        "vpnConfigurationId": null,
+                                        "uninstallOnDeviceRemoval": null,
+                                        "isRemovable": null
+                              }
+                    }
+          ]
+}

@@ -1,0 +1,65 @@
+{
+          "@odata.type": "#microsoft.graph.officeSuiteApp",
+          "displayName": "Microsoft 365 Apps for Windows 10 and later",
+          "publisher": "Microsoft",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": "https://privacy.microsoft.com/en-US/privacystatement",
+          "informationUrl": "https://products.office.com/en-us/explore-office-for-home",
+          "owner": "Microsoft",
+          "developer": "Microsoft",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "autoAcceptEula": true,
+          "productIds": [
+                    "o365ProPlusRetail"
+          ],
+          "useSharedComputerActivation": true,
+          "updateChannel": "monthlyEnterprise",
+          "officeSuiteAppDefaultFileFormat": "notConfigured",
+          "officePlatformArchitecture": "x64",
+          "localesToInstall": [
+                    "de-de"
+          ],
+          "installProgressDisplayLevel": "none",
+          "shouldUninstallOlderVersionsOfOffice": true,
+          "targetVersion": "",
+          "updateVersion": "",
+          "officeConfigurationXml": null,
+          "excludedApps": {
+                    "access": false,
+                    "bing": false,
+                    "excel": false,
+                    "groove": false,
+                    "infoPath": true,
+                    "lync": true,
+                    "oneDrive": false,
+                    "oneNote": false,
+                    "outlook": false,
+                    "powerPoint": false,
+                    "publisher": true,
+                    "sharePointDesigner": true,
+                    "teams": true,
+                    "visio": false,
+                    "word": false
+          },
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "policySets",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    }
+          ]
+}

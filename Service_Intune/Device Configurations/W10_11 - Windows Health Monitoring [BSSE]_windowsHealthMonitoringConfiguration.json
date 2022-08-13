@@ -1,0 +1,26 @@
+{
+          "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": null,
+          "displayName": "W10/11 - Windows Health Monitoring [BSSE]",
+          "allowDeviceHealthMonitoring": "enabled",
+          "configDeviceHealthMonitoringScope": "bootPerformance,windowsUpdates",
+          "configDeviceHealthMonitoringCustomScope": null,
+          "assignments": [
+                    {
+                              "source": "policySets",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    }
+          ]
+}

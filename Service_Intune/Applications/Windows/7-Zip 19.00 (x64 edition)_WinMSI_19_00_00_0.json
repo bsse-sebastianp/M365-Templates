@@ -1,0 +1,52 @@
+{
+          "@odata.type": "#microsoft.graph.windowsMobileMSI",
+          "displayName": "7-Zip 19.00 (x64 edition)",
+          "publisher": "Igor Pavlov",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": "",
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "7z1900-x64.msi",
+          "size": 1748544,
+          "commandLine": "",
+          "productCode": "{23170F69-40C1-2702-1900-000001000000}",
+          "productVersion": "19.00.00.0",
+          "ignoreVersionDetection": false,
+          "identityVersion": "19.00.00.0",
+          "useDeviceContext": true,
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "policySets",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Software Standard"
+                              }
+                    }
+          ]
+}

@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Erstelle SuS Account",
+          "description": "",
+          "scriptContent": "JHB3PUNvbnZlcnRUby1TZWN1cmVTdHJpbmcgLVN0cmluZyAiZWtzc3VzIiAtQXNQbGFpblRleHQgLUZvcmNlDQokTXlVc2VyPU5ldy1Mb2NhbFVzZXIgLU5hbWUgU3VTIC1EZXNjcmlwdGlvbiAiU2No77+9bGVyaW5uZW4gdW5kIFNjaO+/vWxlciIgLUFjY291bnROZXZlckV4cGlyZXMgLVBhc3N3b3JkICRwdyAtVXNlck1heU5vdENoYW5nZVBhc3N3b3JkIC1QYXNzd29yZE5ldmVyRXhwaXJlcw0KIyRNeUdyb3VwPUdldC1Mb2NhbEdyb3VwIEFkbWluKg0KI0FkZC1Mb2NhbEdyb3VwTWVtYmVyIC1Hcm91cCAkTXlHcm91cCAtTWVtYmVyICRNeVVzZXI=",
+          "runAsAccount": "system",
+          "fileName": "CreateLocalSuSUser.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

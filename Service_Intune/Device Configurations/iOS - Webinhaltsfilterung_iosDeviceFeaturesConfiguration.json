@@ -1,0 +1,51 @@
+{
+          "@odata.type": "#microsoft.graph.iosDeviceFeaturesConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "iOS - Webinhaltsfilterung",
+          "displayName": "iOS - Webinhaltsfilterung",
+          "assetTagTemplate": null,
+          "lockScreenFootnote": null,
+          "homeScreenGridWidth": null,
+          "homeScreenGridHeight": null,
+          "singleSignOnSettings": null,
+          "wallpaperDisplayLocation": "notConfigured",
+          "wallpaperImage": null,
+          "singleSignOnExtension": null,
+          "iosSingleSignOnExtension": null,
+          "airPrintDestinations": [],
+          "contentFilterSettings": {
+                    "@odata.type": "#microsoft.graph.iosWebContentFilterAutoFilter",
+                    "allowedUrls": [],
+                    "blockedUrls": []
+          },
+          "homeScreenDockIcons": [],
+          "homeScreenPages": [],
+          "notificationSettings": [],
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Schuelergeraete"
+                              }
+                    },
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Poolgeraete"
+                              }
+                    }
+          ]
+}

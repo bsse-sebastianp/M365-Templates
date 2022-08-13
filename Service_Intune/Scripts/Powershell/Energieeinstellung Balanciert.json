@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Energieeinstellung Balanciert",
+          "description": "",
+          "scriptContent": "cG93ZXJjZmcgL1NFVEFDVElWRSBTQ0hFTUVfQkFMQU5DRUQNCkV4aXQgMA==",
+          "runAsAccount": "system",
+          "fileName": "set_energy_option_balanced.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

@@ -1,0 +1,135 @@
+{
+          "@odata.type": "#microsoft.graph.win32LobApp",
+          "displayName": "KAH-OG-LE1.8-DR01",
+          "publisher": "BSSE GmbH",
+          "largeIcon": null,
+          "isFeatured": true,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "OG-LE1.8-DR01.intunewin",
+          "size": 117974144,
+          "installCommandLine": "powershell -ex bypass -file install.ps1",
+          "uninstallCommandLine": "powershell -ex bypass -file uninstall.ps1",
+          "applicableArchitectures": "x86,x64",
+          "minimumFreeDiskSpaceInMB": 110,
+          "minimumMemoryInMB": 150,
+          "minimumNumberOfProcessors": null,
+          "minimumCpuSpeedInMHz": null,
+          "msiInformation": null,
+          "setupFilePath": "install.ps1",
+          "minimumSupportedWindowsRelease": "1607",
+          "displayVersion": "1.0",
+          "allowAvailableUninstall": false,
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v8_1": false,
+                    "v10_0": false,
+                    "v10_1607": true,
+                    "v10_1703": false,
+                    "v10_1709": false,
+                    "v10_1803": false,
+                    "v10_1809": false,
+                    "v10_1903": false,
+                    "v10_1909": false,
+                    "v10_2004": false,
+                    "v10_2H20": false,
+                    "v10_21H1": false
+          },
+          "detectionRules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryDetection",
+                              "check32BitOn64System": true,
+                              "keyPath": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Print\\Printers\\OG-LE18-DR01",
+                              "valueName": null,
+                              "detectionType": "exists",
+                              "operator": "notConfigured",
+                              "detectionValue": ""
+                    }
+          ],
+          "requirementRules": [],
+          "rules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryRule",
+                              "ruleType": "detection",
+                              "check32BitOn64System": true,
+                              "keyPath": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Print\\Printers\\OG-LE18-DR01",
+                              "valueName": null,
+                              "operationType": "exists",
+                              "operator": "notConfigured",
+                              "comparisonValue": ""
+                    }
+          ],
+          "installExperience": {
+                    "runAsAccount": "system",
+                    "deviceRestartBehavior": "allow"
+          },
+          "returnCodes": [
+                    {
+                              "returnCode": 0,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 1707,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 3010,
+                              "type": "softReboot"
+                    },
+                    {
+                              "returnCode": 1641,
+                              "type": "hardReboot"
+                    },
+                    {
+                              "returnCode": 1618,
+                              "type": "retry"
+                    }
+          ],
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "KAH Pool OG.L1.5-8"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "DEV-Autopilot"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    }
+          ]
+}

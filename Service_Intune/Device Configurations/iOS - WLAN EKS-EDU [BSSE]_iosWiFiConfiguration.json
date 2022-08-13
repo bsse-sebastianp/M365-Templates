@@ -1,0 +1,44 @@
+{
+          "@odata.type": "#microsoft.graph.iosWiFiConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": null,
+          "displayName": "iOS - WLAN EKS-EDU [BSSE]",
+          "networkName": "EKS-EDU",
+          "ssid": "EKS-EDU",
+          "connectAutomatically": true,
+          "connectWhenNetworkNameIsHidden": false,
+          "wiFiSecurityType": "wpaPersonal",
+          "proxySettings": "none",
+          "proxyManualAddress": null,
+          "proxyManualPort": null,
+          "proxyAutomaticConfigurationUrl": null,
+          "disableMacAddressRandomization": null,
+          "preSharedKey": null,
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Alle DEP Intune iOS Ger\u00e4te"
+                              }
+                    },
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_alleGeraete"
+                              }
+                    }
+          ]
+}

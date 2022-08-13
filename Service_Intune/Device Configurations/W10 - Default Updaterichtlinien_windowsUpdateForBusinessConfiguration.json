@@ -1,0 +1,63 @@
+{
+          "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "Standard Updaterichtlinien f\u00fcr Windows-Ger\u00e4te",
+          "displayName": "W10 - Default Updaterichtlinien",
+          "deliveryOptimizationMode": "userDefined",
+          "prereleaseFeatures": "userDefined",
+          "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+          "microsoftUpdateServiceAllowed": true,
+          "driversExcluded": false,
+          "qualityUpdatesDeferralPeriodInDays": 14,
+          "featureUpdatesDeferralPeriodInDays": 14,
+          "qualityUpdatesPaused": false,
+          "featureUpdatesPaused": false,
+          "qualityUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00Z",
+          "featureUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00Z",
+          "businessReadyUpdatesOnly": "businessReadyOnly",
+          "skipChecksBeforeRestart": false,
+          "updateWeeks": null,
+          "qualityUpdatesPauseStartDate": null,
+          "featureUpdatesPauseStartDate": null,
+          "featureUpdatesRollbackWindowInDays": 30,
+          "qualityUpdatesWillBeRolledBack": null,
+          "featureUpdatesWillBeRolledBack": null,
+          "qualityUpdatesRollbackStartDateTime": "0001-01-01T00:00:00Z",
+          "featureUpdatesRollbackStartDateTime": "0001-01-01T00:00:00Z",
+          "engagedRestartDeadlineInDays": null,
+          "engagedRestartSnoozeScheduleInDays": null,
+          "engagedRestartTransitionScheduleInDays": null,
+          "deadlineForFeatureUpdatesInDays": 30,
+          "deadlineForQualityUpdatesInDays": null,
+          "deadlineGracePeriodInDays": 7,
+          "postponeRebootUntilAfterDeadline": true,
+          "autoRestartNotificationDismissal": "user",
+          "scheduleRestartWarningInHours": null,
+          "scheduleImminentRestartWarningInMinutes": null,
+          "userPauseAccess": "enabled",
+          "userWindowsUpdateScanAccess": "enabled",
+          "updateNotificationLevel": "defaultNotifications",
+          "allowWindows11Upgrade": false,
+          "installationSchedule": {
+                    "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
+                    "activeHoursStart": "07:00:00.0000000",
+                    "activeHoursEnd": "17:00:00.0000000"
+          },
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W10_alleGeraete"
+                              }
+                    }
+          ]
+}

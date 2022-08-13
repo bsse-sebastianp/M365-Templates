@@ -1,0 +1,2 @@
+powercfg /SETACTIVE SCHEME_MIN
+Exit 0

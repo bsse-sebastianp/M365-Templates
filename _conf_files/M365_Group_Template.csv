@@ -1,0 +1,37 @@
+"Group_Name", "Group_Type", "Rule_Syntax"
+_[BSSE]-MDM-All-iOS-Devices, Dynamic Device, (device.deviceOSType -eq “iPad”) or (device.deviceOSType -eq “iOS”) or (device.deviceOSType -eq “iPhone”)
+_[BSSE]-MDM-All-Android-Devices, Dynamic Device, (device.deviceOSType -eq “Android”)
+_[BSSE]-MDM_W10-Devices,Dynamic Device, (device.deviceOSVersion -startsWith “10.0.1”) -and (device.DeviceOSType -startsWith “Windows”) -and (device.managementType -eq “MDM”)
+_[BSSE]-MDM_W11-Devices,Dynamic Device, (device.deviceOSVersion -startsWith “10.0.2”) -and (device.DeviceOSType -startsWith “Windows”) -and (device.managementType -eq “MDM”)
+_[BSSE]-ALL_W10-Devices,Dynamic Device, (device.deviceOSVersion -startsWith “10.0.1”) -and (device.DeviceOSType -startsWith “Windows”)
+_[BSSE]-ALL_W11-Devices,Dynamic Device, (device.deviceOSVersion -startsWith “10.0.2”) -and (device.DeviceOSType -startsWith “Windows”)
+_[BSSE]-ALL_Intune_Devices,Dynamic Device (device.managementType -eq “MDM”)
+_[BSSE]-ALL_Fujitsu-Devices
+_[BSSE]-ALL_Lenovo-Devices
+_[BSSE]-ALL_Microsoft-Devices
+_[BSSE]-Employees
+_[BSSE]-Employees_Retired
+_[BSSE]-Employees_Inactive
+_[BSSE]-M365_Defender_for_Endpoint, Dynamic Device, user.assignedPlans -any (assignedPlan.servicePlanId -eq "cbdc14ab-d96c-4c30-b9f4-6ada7cdc1d46" -and assignedPlan.capabilityStatus -eq "Enabled")
+_[BSSE]-M365_Defender_for_Endpoint_P2, Dynamic Device, user.assignedPlans -any (assignedPlan.servicePlanId -eq "cbdc14ab-d96c-4c30-b9f4-6ada7cdc1d46" -and assignedPlan.capabilityStatus -eq "Enabled")
+_[BSSE]-O365_Desktop_Apps, Dynamic User, user.assignedPlans -any (assignedPlan.servicePlanId -eq "cdd28e44-67e3-425e-be4c-737fab2899d3" -and assignedPlan.capabilityStatus -eq "Enabled")
+_[BSSE]-O365_Exchange_Online
+_[BSSE]-O365_Exchange_Online_P2
+_[BSSE]-O365_Defender_for_O365
+_[BSSE]-Executive_Management
+_[BSSE]-Department_Finance
+_[BSSE]-Department_Service
+_[BSSE]-Department_Production
+_[BSSE]-Department_Human_Ressource
+_[BSSE]-Trainee
+_[BSSE]-Printer_Kyocera
+_[BSSE]-Printer_Lexmark
+_[BSSE]-Printer_Canon
+_[BSSE]-Service_Veeam
+_[BSSE]-Service_DocuWare
+_[BSSE]-AzureAD_Included_MFA_Users
+_[BSSE]-AzureAD_Excluded_MFA_Users
+_[BSSE]_AzureAD_Priviledeged_Users
+
+
+https://download.microsoft.com/download/e/3/e/e3e9faf2-f28b-490a-9ada-c6089a1fc5b0/Product%20names%20and%20service%20plan%20identifiers%20for%20licensing.csv

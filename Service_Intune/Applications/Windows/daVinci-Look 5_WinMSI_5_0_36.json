@@ -1,0 +1,63 @@
+{
+          "@odata.type": "#microsoft.graph.windowsMobileMSI",
+          "displayName": "daVinci-Look 5",
+          "publisher": "ST\u00dcBER SYSTEMS GmbH",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": "",
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "daVinciLook5.msi",
+          "size": 3782208,
+          "commandLine": "",
+          "productCode": "{136801F8-A79B-49F9-AEC1-4F4184478F24}",
+          "productVersion": "5.0.36",
+          "ignoreVersionDetection": false,
+          "identityVersion": "5.0.36",
+          "useDeviceContext": null,
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "policySets",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "HU Pool Lehrerst\u00fctzpunkt"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "KAH Pool OG Lehrerst\u00fctzpunkt"
+                              }
+                    }
+          ]
+}

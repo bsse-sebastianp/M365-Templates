@@ -1,0 +1,37 @@
+{
+          "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": null,
+          "displayName": "W10/11 - PrintNightmare_Mitigation_1/2 [BSSE]",
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    }
+          ],
+          "omaSettings": [
+                    {
+                              "@odata.type": "#microsoft.graph.omaSettingString",
+                              "displayName": "PrintNightmare.admx",
+                              "description": null,
+                              "omaUri": "./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/FullArmor/Policy/fullarmorAdmx",
+                              "value": {
+                                        "@odata.context": "https://graph.microsoft.com/beta/$metadata#Edm.String",
+                                        "value": "<policyDefinitions revision=\"1.0\" schemaVersion=\"1.0\">\n  <policyNamespaces>\n    <target prefix=\"fullarmor\" namespace=\"FullArmor.Policies.64DD26A9_D7EE_4C90_99F4_F2E8D9DA2757\" />\n    <using prefix=\"windows\" namespace=\"Microsoft.Policies.Windows\" />\n  </policyNamespaces>\n  <supersededAdm fileName=\"\" />\n  <resources minRequiredRevision=\"1.0\" />\n  <categories>\n    <category name=\"CAT_CC62BA78_7C56_48BC_BFB1_3B4A6B9375BB\" displayName=\"$(string.CAT_CC62BA78_7C56_48BC_BFB1_3B4A6B9375BB)\">\n      <parentCategory ref=\"windows:Printers\" />\n    </category>\n  </categories>\n  <policies>\n    <policy name=\"POL_0F5609EA_BBB4_43FB_839A_231E44CEDD71\" class=\"Machine\" displayName=\"$(string.POL_0F5609EA_BBB4_43FB_839A_231E44CEDD71)\" explainText=\"$(string.POL_0F5609EA_BBB4_43FB_839A_231E44CEDD71_Help)\" presentation=\"$(presentation.POL_0F5609EA_BBB4_43FB_839A_231E44CEDD71)\" key=\"Software\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint\" valueName=\"RestrictDriverInstallationToAdministrators\">\n      <parentCategory ref=\"CAT_CC62BA78_7C56_48BC_BFB1_3B4A6B9375BB\" />\n      <supportedOn ref=\"windows:SUPPORTED_WindowsVista\" />\n\t<enabledValue >\n\t\t\t\t<decimal value=\"1\" />\n\t</enabledValue>\n\t<disabledValue >\n\t\t\t\t<decimal value=\"0\" />\n\t</disabledValue>\n    </policy>\n  </policies>\n</policyDefinitions>"
+                              },
+                              "isEncrypted": false,
+                              "secretReferenceValueId": null
+                    }
+          ]
+}

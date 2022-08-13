@@ -1,0 +1,46 @@
+{
+          "@odata.type": "#microsoft.graph.sharedPCConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "Test",
+          "displayName": "DEV_Mehrere Benutzer und Gast Konto",
+          "allowedAccounts": "guest",
+          "localStorage": "enabled",
+          "allowLocalStorage": true,
+          "setAccountManager": "enabled",
+          "disableAccountManager": false,
+          "setEduPolicies": "enabled",
+          "disableEduPolicies": false,
+          "setPowerPolicies": "disabled",
+          "disablePowerPolicies": true,
+          "signInOnResume": "notConfigured",
+          "disableSignInOnResume": false,
+          "enabled": false,
+          "idleTimeBeforeSleepInSeconds": null,
+          "kioskAppDisplayName": null,
+          "kioskAppUserModelId": null,
+          "maintenanceStartTime": "02:00:00.0000000",
+          "fastFirstSignIn": "notConfigured",
+          "accountManagerPolicy": {
+                    "accountDeletionPolicy": "immediate",
+                    "cacheAccountsAboveDiskFreePercentage": null,
+                    "inactiveThresholdDays": null,
+                    "removeAccountsBelowDiskFreePercentage": null
+          },
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "DEV-Autopilot"
+                              }
+                    }
+          ]
+}

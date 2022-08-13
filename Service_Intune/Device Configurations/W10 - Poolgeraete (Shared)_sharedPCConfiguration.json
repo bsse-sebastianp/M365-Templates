@@ -1,0 +1,46 @@
+{
+          "@odata.type": "#microsoft.graph.sharedPCConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "zus\u00e4tzliches Konfigurationsprofil zur Einstellung des SharedMode f\u00fcr Poolger\u00e4te  ",
+          "displayName": "W10 - Poolgeraete (Shared)",
+          "allowedAccounts": "guest,domain",
+          "localStorage": "enabled",
+          "allowLocalStorage": true,
+          "setAccountManager": "enabled",
+          "disableAccountManager": false,
+          "setEduPolicies": "enabled",
+          "disableEduPolicies": false,
+          "setPowerPolicies": "notConfigured",
+          "disablePowerPolicies": false,
+          "signInOnResume": "enabled",
+          "disableSignInOnResume": false,
+          "enabled": true,
+          "idleTimeBeforeSleepInSeconds": null,
+          "kioskAppDisplayName": null,
+          "kioskAppUserModelId": null,
+          "maintenanceStartTime": "02:00:00.0000000",
+          "fastFirstSignIn": "enabled",
+          "accountManagerPolicy": {
+                    "accountDeletionPolicy": "diskSpaceThresholdOrInactiveThreshold",
+                    "cacheAccountsAboveDiskFreePercentage": 50,
+                    "inactiveThresholdDays": 28,
+                    "removeAccountsBelowDiskFreePercentage": 20
+          },
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W10_Poolgeraete"
+                              }
+                    }
+          ]
+}

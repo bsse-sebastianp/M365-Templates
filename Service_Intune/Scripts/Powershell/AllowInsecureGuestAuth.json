@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "AllowInsecureGuestAuth",
+          "description": "",
+          "scriptContent": "TmV3LUl0ZW1wcm9wZXJ0eSAtUGF0aCBIS0xNOlxTWVNURU1cQ3VycmVudENvbnRyb2xTZXRcU2VydmljZXNcTGFubWFuV29ya3N0YXRpb25cUGFyYW1ldGVycyAtTmFtZSBBbGxvd0luc2VjdXJlR3Vlc3RBdXRoIC1WYWx1ZSAiMSIgLVR5cGUgRFdvcmQgDQpTZXQtSXRlbVByb3BlcnR5IC1QYXRoIEhLTE06XFNZU1RFTVxDdXJyZW50Q29udHJvbFNldFxTZXJ2aWNlc1xMYW5tYW5Xb3Jrc3RhdGlvblxQYXJhbWV0ZXJzIC1OYW1lIEFsbG93SW5zZWN1cmVHdWVzdEF1dGggLVZhbHVlICIxIg0K",
+          "runAsAccount": "system",
+          "fileName": "AllowInsecureGuestAuth.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

@@ -1,0 +1,18 @@
+{
+          "organizationName": "Eugen Kaiser Schule",
+          "vppTokenAccountType": "education",
+          "appleId": "Administrator@eks-hanau.de",
+          "expirationDateTime": "2022-11-17T15:51:12Z",
+          "state": "valid",
+          "lastSyncStatus": "completed",
+          "automaticallyUpdateApps": false,
+          "countryOrRegion": "de",
+          "dataSharingConsentGranted": true,
+          "displayName": "EKS",
+          "locationName": "Eugen Kaiser Schule",
+          "claimTokenManagementFromExternalMdm": true,
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "tokenActionResults": []
+}

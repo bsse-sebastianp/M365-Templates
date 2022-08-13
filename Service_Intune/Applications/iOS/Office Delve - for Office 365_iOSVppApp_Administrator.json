@@ -1,0 +1,39 @@
+{
+          "@odata.type": "#microsoft.graph.iosVppApp",
+          "displayName": "Office Delve - for Office 365",
+          "publisher": "Microsoft Corporation",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": "https://apps.apple.com/de/app/office-delve-for-office-365/id969258781",
+          "owner": null,
+          "developer": null,
+          "notes": null,
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": false,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "usedLicenseCount": 0,
+          "totalLicenseCount": 200,
+          "releaseDateTime": "2015-05-10T00:00:00Z",
+          "appStoreUrl": null,
+          "vppTokenOrganizationName": "Eugen Kaiser Schule",
+          "vppTokenAccountType": "education",
+          "vppTokenAppleId": "Administrator@eks-hanau.de",
+          "bundleId": "com.microsoft.office.delve",
+          "vppTokenId": "13d9e57e-2899-4432-90e6-e97dd71b821e",
+          "licensingType": {
+                    "supportUserLicensing": true,
+                    "supportDeviceLicensing": true,
+                    "supportsUserLicensing": true,
+                    "supportsDeviceLicensing": true
+          },
+          "applicableDeviceType": {
+                    "iPad": true,
+                    "iPhoneAndIPod": true
+          },
+          "revokeLicenseActionResults": []
+}

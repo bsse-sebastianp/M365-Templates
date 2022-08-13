@@ -1,0 +1,37 @@
+{
+          "@odata.type": "#microsoft.graph.iosDeviceFeaturesConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "Anzeige von Ger\u00e4teinformationen auf dem Sperrbildschirm",
+          "displayName": "iOS - Sperrbildschirmbenachrichtigungen",
+          "assetTagTemplate": "| User: {{UserName}} | Ger\u00e4tename: {{DEVICENAME}}",
+          "contentFilterSettings": null,
+          "lockScreenFootnote": "Stadtschulamt Hanau",
+          "homeScreenGridWidth": null,
+          "homeScreenGridHeight": null,
+          "singleSignOnSettings": null,
+          "wallpaperDisplayLocation": "notConfigured",
+          "wallpaperImage": null,
+          "singleSignOnExtension": null,
+          "iosSingleSignOnExtension": null,
+          "airPrintDestinations": [],
+          "homeScreenDockIcons": [],
+          "homeScreenPages": [],
+          "notificationSettings": [],
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_alleGeraete"
+                              }
+                    }
+          ]
+}

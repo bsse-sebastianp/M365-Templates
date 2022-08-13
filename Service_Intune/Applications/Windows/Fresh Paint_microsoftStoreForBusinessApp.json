@@ -1,0 +1,30 @@
+{
+          "@odata.type": "#microsoft.graph.microsoftStoreForBusinessApp",
+          "displayName": "Fresh Paint",
+          "publisher": "Microsoft Corporation",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": null,
+          "developer": null,
+          "notes": null,
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": false,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "usedLicenseCount": 0,
+          "totalLicenseCount": 2147483647,
+          "productKey": "9WZDNCRFJB13/0016",
+          "licenseType": "online",
+          "packageIdentityName": "Application_enterprise",
+          "licensingType": {
+                    "supportUserLicensing": true,
+                    "supportDeviceLicensing": true,
+                    "supportsUserLicensing": true,
+                    "supportsDeviceLicensing": true
+          }
+}

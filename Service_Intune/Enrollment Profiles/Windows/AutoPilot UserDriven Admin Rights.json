@@ -1,0 +1,43 @@
+{
+          "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+          "displayName": "AutoPilot UserDriven Admin Rights",
+          "description": "",
+          "language": "de-DE",
+          "enrollmentStatusScreenSettings": null,
+          "extractHardwareHash": false,
+          "deviceNameTemplate": "LEIH-%SERIAL%",
+          "deviceType": "windowsPc",
+          "enableWhiteGlove": false,
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "managementServiceAppId": null,
+          "outOfBoxExperienceSettings": {
+                    "hidePrivacySettings": true,
+                    "hideEULA": true,
+                    "userType": "administrator",
+                    "deviceUsageType": "singleUser",
+                    "skipKeyboardSelectionPage": true,
+                    "hideEscapeLink": true
+          },
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "DEV-Autopilot"
+                              }
+                    },
+                    {
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "AutoPilot UserDriven Admin Rights"
+                              }
+                    }
+          ]
+}

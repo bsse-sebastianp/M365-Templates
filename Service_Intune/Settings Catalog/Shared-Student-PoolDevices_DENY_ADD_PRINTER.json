@@ -1,0 +1,52 @@
+{
+          "creationSource": null,
+          "description": "",
+          "name": "Shared-Student-PoolDevices_DENY_ADD_PRINTER",
+          "platforms": "windows10",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "settingCount": 1,
+          "technologies": "mdm",
+          "templateReference": {
+                    "templateId": "",
+                    "templateFamily": "none",
+                    "templateDisplayName": null,
+                    "templateDisplayVersion": null
+          },
+          "settings": [
+                    {
+                              "id": "0",
+                              "settingInstance": {
+                                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                        "settingDefinitionId": "user_vendor_msft_policy_config_education_preventaddingnewprinters",
+                                        "settingInstanceTemplateReference": null,
+                                        "choiceSettingValue": {
+                                                  "settingValueTemplateReference": null,
+                                                  "value": "user_vendor_msft_policy_config_education_preventaddingnewprinters_1",
+                                                  "children": []
+                                        }
+                              }
+                    }
+          ],
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "EKS Student - SharedMultiUserDevices"
+                              }
+                    },
+                    {
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "DEV-Autopilot"
+                              }
+                    }
+          ]
+}

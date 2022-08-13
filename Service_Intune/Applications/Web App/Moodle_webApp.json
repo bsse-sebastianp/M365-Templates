@@ -1,0 +1,67 @@
+{
+          "@odata.type": "#microsoft.graph.webApp",
+          "displayName": "Moodle",
+          "publisher": "",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "appUrl": "https://moodle.eks-hu.de",
+          "useManagedBrowser": false,
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Schuelergeraete"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Lehrergeraete"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Poolgeraete"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Software Standard"
+                              }
+                    }
+          ]
+}

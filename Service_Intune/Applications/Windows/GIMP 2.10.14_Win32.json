@@ -1,0 +1,135 @@
+{
+          "@odata.type": "#microsoft.graph.win32LobApp",
+          "displayName": "GIMP 2.10.14",
+          "publisher": "BSSE GmbH",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "Spencer Kimball, Peter Mattis",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "2",
+          "fileName": "gimp-2.10.14-setup.intunewin",
+          "size": 216611264,
+          "installCommandLine": "gimp-2.10.14-setup.exe /VERYSILENT /NORESTART /ALLUSERS",
+          "uninstallCommandLine": "\"%ProgramFiles%\\GIMP 2\\uninst\\unins000.exe\" /VERYSILENT /NORESTART",
+          "applicableArchitectures": "x64",
+          "minimumFreeDiskSpaceInMB": null,
+          "minimumMemoryInMB": null,
+          "minimumNumberOfProcessors": null,
+          "minimumCpuSpeedInMHz": null,
+          "msiInformation": null,
+          "setupFilePath": "gimp-2.10.14-setup.exe",
+          "minimumSupportedWindowsRelease": "1607",
+          "displayVersion": null,
+          "allowAvailableUninstall": false,
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v8_1": false,
+                    "v10_0": false,
+                    "v10_1607": true,
+                    "v10_1703": false,
+                    "v10_1709": false,
+                    "v10_1803": false,
+                    "v10_1809": false,
+                    "v10_1903": false,
+                    "v10_1909": false,
+                    "v10_2004": false,
+                    "v10_2H20": false,
+                    "v10_21H1": false
+          },
+          "detectionRules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+                              "path": "%ProgramFiles%\\GIMP 2\\bin\\",
+                              "fileOrFolderName": "gimp-2.10.exe",
+                              "check32BitOn64System": false,
+                              "detectionType": "exists",
+                              "operator": "notConfigured",
+                              "detectionValue": null
+                    }
+          ],
+          "requirementRules": [],
+          "rules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppFileSystemRule",
+                              "ruleType": "detection",
+                              "path": "%ProgramFiles%\\GIMP 2\\bin\\",
+                              "fileOrFolderName": "gimp-2.10.exe",
+                              "check32BitOn64System": false,
+                              "operationType": "exists",
+                              "operator": "notConfigured",
+                              "comparisonValue": null
+                    }
+          ],
+          "installExperience": {
+                    "runAsAccount": "system",
+                    "deviceRestartBehavior": "suppress"
+          },
+          "returnCodes": [
+                    {
+                              "returnCode": 0,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 1707,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 3010,
+                              "type": "softReboot"
+                    },
+                    {
+                              "returnCode": 1641,
+                              "type": "hardReboot"
+                    },
+                    {
+                              "returnCode": 1618,
+                              "type": "retry"
+                    }
+          ],
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Software Kreativit\u00e4t"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "notConfigured"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "KAH Pool OG Lehrerst\u00fctzpunkt"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "notConfigured"
+                              }
+                    }
+          ]
+}

@@ -1,0 +1,37 @@
+{
+          "@odata.type": "#microsoft.graph.windowsIdentityProtectionConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "Windows Hello.",
+          "displayName": "W10/11 - Default Windows Hello Policy [BSSE]",
+          "useSecurityKeyForSignin": true,
+          "enhancedAntiSpoofingForFacialFeaturesEnabled": true,
+          "pinMinimumLength": 6,
+          "pinMaximumLength": null,
+          "pinUppercaseCharactersUsage": "allowed",
+          "pinLowercaseCharactersUsage": "allowed",
+          "pinSpecialCharactersUsage": "allowed",
+          "pinExpirationInDays": 0,
+          "pinPreviousBlockCount": 3,
+          "pinRecoveryEnabled": true,
+          "securityDeviceRequired": true,
+          "unlockWithBiometricsEnabled": true,
+          "useCertificatesForOnPremisesAuthEnabled": false,
+          "windowsHelloForBusinessBlocked": false,
+          "assignments": [
+                    {
+                              "source": "policySets",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    }
+          ]
+}

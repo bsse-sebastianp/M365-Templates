@@ -1,0 +1,24 @@
+{
+          "@odata.type": "#microsoft.graph.activeDirectoryWindowsAutopilotDeploymentProfile",
+          "displayName": "AutoPilot Hybrid Domain Join",
+          "description": "",
+          "language": "de-DE",
+          "enrollmentStatusScreenSettings": null,
+          "extractHardwareHash": false,
+          "deviceNameTemplate": "",
+          "deviceType": "windowsPc",
+          "enableWhiteGlove": true,
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "managementServiceAppId": null,
+          "hybridAzureADJoinSkipConnectivityCheck": false,
+          "outOfBoxExperienceSettings": {
+                    "hidePrivacySettings": true,
+                    "hideEULA": true,
+                    "userType": "standard",
+                    "deviceUsageType": "singleUser",
+                    "skipKeyboardSelectionPage": false,
+                    "hideEscapeLink": true
+          }
+}

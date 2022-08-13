@@ -1,0 +1,23 @@
+{
+          "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+          "displayName": "DEV AutoPilot UserDriven",
+          "description": "Profile zum Testen von AutoPilot",
+          "language": "de-DE",
+          "enrollmentStatusScreenSettings": null,
+          "extractHardwareHash": false,
+          "deviceNameTemplate": "DEV-%SERIAL%",
+          "deviceType": "windowsPc",
+          "enableWhiteGlove": false,
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "managementServiceAppId": null,
+          "outOfBoxExperienceSettings": {
+                    "hidePrivacySettings": true,
+                    "hideEULA": true,
+                    "userType": "standard",
+                    "deviceUsageType": "singleUser",
+                    "skipKeyboardSelectionPage": true,
+                    "hideEscapeLink": true
+          }
+}

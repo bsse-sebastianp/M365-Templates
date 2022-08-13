@@ -1,0 +1,56 @@
+{
+          "@odata.type": "#microsoft.graph.windowsWifiConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": null,
+          "displayName": "W10/11 - Deploy SSID:EKS-EDU PresharedKey [BSSE]",
+          "preSharedKey": null,
+          "wifiSecurityType": "wpa2Personal",
+          "meteredConnectionLimit": "unrestricted",
+          "ssid": "EKS-EDU",
+          "networkName": "EKS-EDU",
+          "connectAutomatically": true,
+          "connectToPreferredNetwork": null,
+          "connectWhenNetworkNameIsHidden": false,
+          "proxySetting": "none",
+          "proxyManualAddress": null,
+          "proxyManualPort": null,
+          "proxyAutomaticConfigurationUrl": null,
+          "forceFIPSCompliance": false,
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Alle Leihger\u00e4te"
+                              }
+                    },
+                    {
+                              "source": "policySets",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    },
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Alle Intune Ger\u00e4te"
+                              }
+                    }
+          ]
+}

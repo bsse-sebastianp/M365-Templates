@@ -1,0 +1,138 @@
+{
+          "@odata.type": "#microsoft.graph.win32LobApp",
+          "displayName": "Uninstall_McAffee_LiveSafe",
+          "publisher": "BSSE",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "UNINSTALL_McAfee_LifeSave.intunewin",
+          "size": 15457648,
+          "installCommandLine": "silent_uninstall.bat",
+          "uninstallCommandLine": "silent_uninstall.bat",
+          "applicableArchitectures": "x86,x64",
+          "minimumFreeDiskSpaceInMB": null,
+          "minimumMemoryInMB": null,
+          "minimumNumberOfProcessors": 5,
+          "minimumCpuSpeedInMHz": 7,
+          "msiInformation": null,
+          "setupFilePath": "silent_uninstall.bat",
+          "minimumSupportedWindowsRelease": "1803",
+          "displayVersion": "1.0",
+          "allowAvailableUninstall": false,
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v8_1": false,
+                    "v10_0": false,
+                    "v10_1607": false,
+                    "v10_1703": false,
+                    "v10_1709": false,
+                    "v10_1803": true,
+                    "v10_1809": false,
+                    "v10_1903": false,
+                    "v10_1909": false,
+                    "v10_2004": false,
+                    "v10_2H20": false,
+                    "v10_21H1": false
+          },
+          "detectionRules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryDetection",
+                              "check32BitOn64System": false,
+                              "keyPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\McAfee",
+                              "valueName": null,
+                              "detectionType": "doesNotExist",
+                              "operator": "notConfigured",
+                              "detectionValue": ""
+                    }
+          ],
+          "requirementRules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryRequirement",
+                              "operator": "notConfigured",
+                              "detectionValue": "",
+                              "check32BitOn64System": false,
+                              "keyPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\McAfee",
+                              "valueName": null,
+                              "detectionType": "exists"
+                    }
+          ],
+          "rules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryRule",
+                              "ruleType": "detection",
+                              "check32BitOn64System": false,
+                              "keyPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\McAfee",
+                              "valueName": null,
+                              "operationType": "doesNotExist",
+                              "operator": "notConfigured",
+                              "comparisonValue": ""
+                    },
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryRule",
+                              "ruleType": "requirement",
+                              "check32BitOn64System": false,
+                              "keyPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\McAfee",
+                              "valueName": null,
+                              "operationType": "exists",
+                              "operator": "notConfigured",
+                              "comparisonValue": ""
+                    }
+          ],
+          "installExperience": {
+                    "runAsAccount": "system",
+                    "deviceRestartBehavior": "allow"
+          },
+          "returnCodes": [
+                    {
+                              "returnCode": 0,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 1707,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 3010,
+                              "type": "softReboot"
+                    },
+                    {
+                              "returnCode": 1641,
+                              "type": "hardReboot"
+                    },
+                    {
+                              "returnCode": 1618,
+                              "type": "retry"
+                    }
+          ],
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Lenovo 20VE"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    }
+          ]
+}

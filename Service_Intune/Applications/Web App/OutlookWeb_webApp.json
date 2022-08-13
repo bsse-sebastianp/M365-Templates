@@ -1,0 +1,34 @@
+{
+          "@odata.type": "#microsoft.graph.webApp",
+          "displayName": "OutlookWeb",
+          "publisher": "Microsoft",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": "",
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "appUrl": "https://outlook.office.com/owa/",
+          "useManagedBrowser": false,
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "HU Pool Lehrerst\u00fctzpunkt"
+                              }
+                    }
+          ]
+}

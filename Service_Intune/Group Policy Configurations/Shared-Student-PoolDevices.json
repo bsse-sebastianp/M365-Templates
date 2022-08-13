@@ -1,0 +1,206 @@
+{
+          "displayName": "Shared-Student-PoolDevices",
+          "description": "",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "policyConfigurationIngestionType": "builtIn",
+          "definitionValues": [
+                    {
+                              "createdDateTime": "2021-12-07T13:51:26.1066666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "adfabe8e-2367-4668-bdc1-023ec2f0c5aa",
+                              "lastModifiedDateTime": "2021-12-07T13:51:26.104317Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Silently sign in users to the OneDrive sync app with their Windows credentials",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "0de8c88e-9535-4d96-b6f7-52f56beaa2c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "81c07ba0-7512-402d-b1f6-00856975cfab",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-12-07T14:38:09.2533333Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "22f28a8a-4232-4476-bded-d2c8f8ca33b5",
+                              "lastModifiedDateTime": "2021-12-07T14:38:09.2568344Z",
+                              "definition": null,
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-12-07T14:38:09.2533333Z",
+                              "enabled": false,
+                              "configurationType": "policy",
+                              "id": "8dedfd27-eb08-4691-a6cd-6d4929b64df7",
+                              "lastModifiedDateTime": "2021-12-07T14:38:09.2568344Z",
+                              "definition": null,
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-12-07T14:36:08.0533333Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "372f2962-db6c-4bb5-a5a4-51d81441a52f",
+                              "lastModifiedDateTime": "2021-12-07T14:36:08.1021011Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Warn users who are low on disk space",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "22fd2a9c-471e-4bbd-82e7-f778eb867c61",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "a62f11f9-ccdf-4adb-95f2-71ab7415a976",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+                                                  "lastModifiedDateTime": "2021-12-07T14:36:08.1021011Z",
+                                                  "createdDateTime": "2021-12-07T14:36:08.1Z",
+                                                  "id": "42fff358-8ac3-4b4b-8819-fd5456abcd7e",
+                                                  "value": 500,
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationDecimalTextBox",
+                                                            "label": "Minimum available disk space:",
+                                                            "id": "90d7eb32-a406-4cf0-9cb5-f76b5808df35",
+                                                            "lastModifiedDateTime": "2020-10-13T17:49:39.1577416Z",
+                                                            "defaultValue": 500,
+                                                            "spin": true,
+                                                            "spinStep": 1,
+                                                            "required": false,
+                                                            "minValue": 0,
+                                                            "maxValue": 10240000
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2021-12-07T13:51:26.0933333Z",
+                              "enabled": false,
+                              "configurationType": "policy",
+                              "id": "e517ba87-77a1-4276-9ff2-80e496a22258",
+                              "lastModifiedDateTime": "2021-12-07T13:51:26.0886747Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Browse the network to find printers",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "aee9600a-39c3-4daa-a8e1-ce21d1c3548c",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "10.0",
+                                        "version": "1.0",
+                                        "id": "10ce19d5-5f1d-4da3-9b5d-df0304462924",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-12-07T13:51:26.0866666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "edccef1c-33c1-4c04-8343-4dd86ae74de0",
+                              "lastModifiedDateTime": "2021-12-07T13:51:26.0886747Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Prevent deletion of printers",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "aee9600a-39c3-4daa-a8e1-ce21d1c3548c",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "10.0",
+                                        "version": "1.0",
+                                        "id": "9a7984b1-f7c7-493d-b211-e11c8a0ceb60",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-12-07T14:36:08.0766666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "0eeed2aa-55c3-4531-9743-834c897fe40e",
+                              "lastModifiedDateTime": "2021-12-07T14:36:08.0864566Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Use OneDrive Files On-Demand",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "0de8c88e-9535-4d96-b6f7-52f56beaa2c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "61b07a01-7e60-4127-b086-f6b32458a5c5",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-12-07T13:51:26.0966666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "0593e839-67da-4c2d-acd2-a1d19fca47fc",
+                              "lastModifiedDateTime": "2021-12-07T13:51:26.104317Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Prohibit access to Control Panel and PC settings",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "ffb43331-c947-44bb-bec4-794e90c5dff2",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "10.0",
+                                        "version": "1.0",
+                                        "id": "8d43d6ed-e3fe-42ba-9441-fa2efb998888",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    }
+          ],
+          "assignments": [
+                    {
+                              "lastModifiedDateTime": "2021-12-08T08:40:07.6723395Z",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "KAH Pool OG.L1.1-4"
+                              }
+                    },
+                    {
+                              "lastModifiedDateTime": "2021-12-08T08:40:07.6723395Z",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "DEV-Autopilot"
+                              }
+                    }
+          ]
+}

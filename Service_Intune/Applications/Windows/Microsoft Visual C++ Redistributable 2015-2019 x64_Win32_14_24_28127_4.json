@@ -1,0 +1,169 @@
+{
+          "@odata.type": "#microsoft.graph.win32LobApp",
+          "displayName": "Microsoft Visual C++ Redistributable 2015-2019 x64",
+          "publisher": "Microsoft",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "VC_redist.x64.intunewin",
+          "size": 14825344,
+          "installCommandLine": "vc_redist.x64.exe /install /passive /norestart",
+          "uninstallCommandLine": "vc_redist.x64.exe /uninstall",
+          "applicableArchitectures": "x64",
+          "minimumFreeDiskSpaceInMB": 3,
+          "minimumMemoryInMB": 5,
+          "minimumNumberOfProcessors": null,
+          "minimumCpuSpeedInMHz": null,
+          "msiInformation": null,
+          "setupFilePath": "VC_redist.x64.exe",
+          "minimumSupportedWindowsRelease": "1607",
+          "displayVersion": "14.24.28127.4",
+          "allowAvailableUninstall": false,
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v8_1": false,
+                    "v10_0": false,
+                    "v10_1607": true,
+                    "v10_1703": false,
+                    "v10_1709": false,
+                    "v10_1803": false,
+                    "v10_1809": false,
+                    "v10_1903": false,
+                    "v10_1909": false,
+                    "v10_2004": false,
+                    "v10_2H20": false,
+                    "v10_21H1": false
+          },
+          "detectionRules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryDetection",
+                              "check32BitOn64System": true,
+                              "keyPath": "HKEY_CLASSES_ROOT\\Installer\\Dependencies\\VC,redist.x64,amd64,14.24,bundle",
+                              "valueName": "Version",
+                              "detectionType": "string",
+                              "operator": "equal",
+                              "detectionValue": "14.24.28127.4"
+                    }
+          ],
+          "requirementRules": [],
+          "rules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppRegistryRule",
+                              "ruleType": "detection",
+                              "check32BitOn64System": true,
+                              "keyPath": "HKEY_CLASSES_ROOT\\Installer\\Dependencies\\VC,redist.x64,amd64,14.24,bundle",
+                              "valueName": "Version",
+                              "operationType": "string",
+                              "operator": "equal",
+                              "comparisonValue": "14.24.28127.4"
+                    }
+          ],
+          "installExperience": {
+                    "runAsAccount": "system",
+                    "deviceRestartBehavior": "allow"
+          },
+          "returnCodes": [
+                    {
+                              "returnCode": 0,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 1707,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 3010,
+                              "type": "softReboot"
+                    },
+                    {
+                              "returnCode": 1641,
+                              "type": "hardReboot"
+                    },
+                    {
+                              "returnCode": 1618,
+                              "type": "retry"
+                    }
+          ],
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "KAH Bibliotheksrechner"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "notConfigured"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "DEV-Autopilot"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Software Standard"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    }
+          ]
+}

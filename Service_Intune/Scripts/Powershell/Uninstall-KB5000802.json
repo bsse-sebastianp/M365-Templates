@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Uninstall-KB5000802",
+          "description": "Deinstalliert die Fehlerhaften KB-Updates",
+          "scriptContent": "d3VzYSAvdW5pbnN0YWxsIC9rYjo1MDAwODAyIC9xdWlldCAvbm9yZXN0YXJ0DQp3dXNhIC91bmluc3RhbGwgL2tiOjUwMDA4MDMgL3F1aWV0IC9ub3Jlc3RhcnQNCnd1c2EgL3VuaW5zdGFsbCAva2I6NTAwMDgwOCAvcXVpZXQgL25vcmVzdGFydA0Kd3VzYSAvdW5pbnN0YWxsIC9rYjo1MDAwODA5IC9xdWlldCAvbm9yZXN0YXJ0DQp3dXNhIC91bmluc3RhbGwgL2tiOjUwMDA4NDggL3F1aWV0IC9ub3Jlc3RhcnQNCnd1c2EgL3VuaW5zdGFsbCAva2I6NTAwMDgyMiAvcXVpZXQgL25vcmVzdGFydA==",
+          "runAsAccount": "system",
+          "fileName": "Uninstall-KB.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

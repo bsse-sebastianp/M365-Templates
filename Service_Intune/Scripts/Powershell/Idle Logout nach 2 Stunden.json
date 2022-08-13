@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Idle Logout nach 2 Stunden",
+          "description": "Benutzer nach 2 Stunden Inaktivit\u00e4t abmelden",
+          "scriptContent": "77u/IyBDcmVhdGUgVGFzayB0byBsb2dvdXQgdXNlciBhZnRlciAyIGhvdXJzIGlkbGUgdGltZQ0KDQokU3RhID0gTmV3LVNjaGVkdWxlZFRhc2tBY3Rpb24gLUV4ZWN1dGUgInNodXRkb3duLmV4ZSIgLUFyZ3VtZW50ICItTCINCiRTdHNldCA9IE5ldy1TY2hlZHVsZWRUYXNrU2V0dGluZ3NTZXQgLVJ1bk9ubHlJZklkbGUgLUlkbGVEdXJhdGlvbiAwMjowMDowMCAtSWRsZVdhaXRUaW1lb3V0IDAwOjAyOjAwIGANICAgICAgICAtQWxsb3dTdGFydElmT25CYXR0ZXJpZXMgLURvbnRTdG9wSWZHb2luZ09uQmF0dGVyaWVzDQokdHJpZ2dlciA9IE5ldy1TY2hlZHVsZWRUYXNrVHJpZ2dlciAtQXRMb2dvbg0KUmVnaXN0ZXItU2NoZWR1bGVkVGFzayAtQWN0aW9uICRTdGEgLVRhc2tOYW1lIElkbGVMb2dvdXQgLURlc2NyaXB0aW9uICJNZWxkZXQgQmVudXR6ZXIgbmFjaCAyIFN0dW5kZW4gSW5ha3Rpdml0w6R0IGFiIiBgDQogICAgICAgIC1Vc2VyIFN5c3RlbSAtVHJpZ2dlciAkdHJpZ2dlciAtU2V0dGluZ3MgJFN0c2V0",
+          "runAsAccount": "system",
+          "fileName": "IdleLogout.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

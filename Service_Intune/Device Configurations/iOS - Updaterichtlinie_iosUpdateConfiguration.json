@@ -1,0 +1,63 @@
+{
+          "@odata.type": "#microsoft.graph.iosUpdateConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "Automatisches Update au\u00dferhalb der Unterrichtszeiten",
+          "displayName": "iOS - Updaterichtlinie",
+          "isEnabled": false,
+          "activeHoursStart": "00:00:00.0000000",
+          "activeHoursEnd": "00:00:00.0000000",
+          "desiredOsVersion": null,
+          "scheduledInstallDays": [],
+          "utcTimeOffsetInMinutes": 60,
+          "enforcedSoftwareUpdateDelayInDays": null,
+          "updateScheduleType": "updateOutsideOfTimeWindows",
+          "customUpdateTimeWindows": [
+                    {
+                              "startDay": "monday",
+                              "endDay": "monday",
+                              "startTime": "07:00:00.0000000",
+                              "endTime": "17:00:00.0000000"
+                    },
+                    {
+                              "startDay": "tuesday",
+                              "endDay": "tuesday",
+                              "startTime": "07:00:00.0000000",
+                              "endTime": "17:00:00.0000000"
+                    },
+                    {
+                              "startDay": "wednesday",
+                              "endDay": "wednesday",
+                              "startTime": "07:00:00.0000000",
+                              "endTime": "17:00:00.0000000"
+                    },
+                    {
+                              "startDay": "thursday",
+                              "endDay": "thursday",
+                              "startTime": "07:00:00.0000000",
+                              "endTime": "17:00:00.0000000"
+                    },
+                    {
+                              "startDay": "friday",
+                              "endDay": "friday",
+                              "startTime": "07:00:00.0000000",
+                              "endTime": "17:00:00.0000000"
+                    }
+          ],
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_alleGeraete"
+                              }
+                    }
+          ]
+}

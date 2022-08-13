@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Remove-LastPassLink",
+          "description": "",
+          "scriptContent": "77u/JExhc3RQYXNzID0gIkM6XFByb2dyYW1EYXRhXE1pY3Jvc29mdFxXaW5kb3dzXFN0YXJ0IE1lbnVcUHJvZ3JhbXNcTGFzdFBhc3MubG5rIg0KDQppZihUZXN0LVBhdGggLVBhdGggJExhc3RQYXNzIC1QYXRoVHlwZSBMZWFmKXsNCiAgUmVtb3ZlLUl0ZW0gJExhc3RQYXNzDQp9DQo=",
+          "runAsAccount": "system",
+          "fileName": "Remove-LastPassLink.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

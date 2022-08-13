@@ -1,0 +1,114 @@
+{
+          "@odata.type": "#microsoft.graph.win32LobApp",
+          "displayName": "XMind-8 Update9",
+          "publisher": "BSSE GmbH",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "XMind Ltd.",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "2",
+          "fileName": "xmind-8-update9-windows.intunewin",
+          "size": 164453920,
+          "installCommandLine": "xmind-8-update9-windows.exe /allUsers /verysilent",
+          "uninstallCommandLine": "\"%ProgramFiles(x86)%\\XMind\\unins000.exe\" /verysilent",
+          "applicableArchitectures": "x86,x64",
+          "minimumFreeDiskSpaceInMB": null,
+          "minimumMemoryInMB": null,
+          "minimumNumberOfProcessors": null,
+          "minimumCpuSpeedInMHz": null,
+          "msiInformation": null,
+          "setupFilePath": "xmind-8-update9-windows.exe",
+          "minimumSupportedWindowsRelease": "1607",
+          "displayVersion": null,
+          "allowAvailableUninstall": false,
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v8_1": false,
+                    "v10_0": false,
+                    "v10_1607": true,
+                    "v10_1703": false,
+                    "v10_1709": false,
+                    "v10_1803": false,
+                    "v10_1809": false,
+                    "v10_1903": false,
+                    "v10_1909": false,
+                    "v10_2004": false,
+                    "v10_2H20": false,
+                    "v10_21H1": false
+          },
+          "detectionRules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+                              "path": "%ProgramFiles(x86)%\\XMind\\",
+                              "fileOrFolderName": "XMind.exe",
+                              "check32BitOn64System": false,
+                              "detectionType": "exists",
+                              "operator": "notConfigured",
+                              "detectionValue": null
+                    }
+          ],
+          "requirementRules": [],
+          "rules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppFileSystemRule",
+                              "ruleType": "detection",
+                              "path": "%ProgramFiles(x86)%\\XMind\\",
+                              "fileOrFolderName": "XMind.exe",
+                              "check32BitOn64System": false,
+                              "operationType": "exists",
+                              "operator": "notConfigured",
+                              "comparisonValue": null
+                    }
+          ],
+          "installExperience": {
+                    "runAsAccount": "system",
+                    "deviceRestartBehavior": "suppress"
+          },
+          "returnCodes": [],
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Software Kreativit\u00e4t"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "notConfigured"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Fujitsu A556"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    }
+          ]
+}

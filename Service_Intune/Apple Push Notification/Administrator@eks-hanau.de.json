@@ -1,0 +1,9 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/applePushNotificationCertificate/$entity",
+          "appleIdentifier": "Administrator@eks-hanau.de",
+          "lastModifiedDateTime": "2021-10-26T07:53:52Z",
+          "expirationDateTime": "2022-10-26T07:39:46Z",
+          "certificateUploadStatus": null,
+          "certificateUploadFailureReason": null,
+          "certificateSerialNumber": "1795B9CD947230CA"
+}

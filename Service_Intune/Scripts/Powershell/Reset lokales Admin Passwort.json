@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Reset lokales Admin Passwort",
+          "description": "Setzt das Kennwort f\u00fcr den lokalen Benutzer \"Admin\" zur\u00fcck",
+          "scriptContent": "JHVzZXIgPSAnQWRtaW4nDQokcHcgPUNvbnZlcnRUby1TZWN1cmVTdHJpbmcgLVN0cmluZyAiTDNocjNyIW5TY2h1bDMiIC1Bc1BsYWluVGV4dCAtRm9yY2UNCmVjaG8gJHVzZXINCiRvcCA9IEdldC1Mb2NhbFVTZXIgfCB3aGVyZS1PYmplY3QgTmFtZSAtZXEgJHVzZXIgfCBNZWFzdXJlDQppZiAoJG9wLkNvdW50IC1lcSAxKSB7DQogICAgIFNldC1Mb2NhbFVzZXIgLU5hbWUgJHVzZXIgLVBhc3N3b3JkICRwdyAjT25seSBMb2NhbFVzZXINCiAgICAgI1NldC1BREFjY291bnRQYXNzd29yZCAtSWRlbnRpdHkgJHVzZXIgLVJlc2V0IC1OZXdQYXNzd29yZCAkcHcgT25seSBmb3IgRG9tYWluVXNlcg0KICAgICBlY2hvICJVc2VyLVBhc3N3b3JkIGNoYW5nZWQiDQp9IGVsc2Ugew0KICAgICBlY2hvICJVc2VyIG5vdCBmb3VuZCINCn0NCg0KDQoNCg==",
+          "runAsAccount": "system",
+          "fileName": "ACCOUNT-ChangeLocalUserPassword.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

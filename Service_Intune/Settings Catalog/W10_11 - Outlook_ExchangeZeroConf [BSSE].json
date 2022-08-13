@@ -1,0 +1,43 @@
+{
+          "creationSource": null,
+          "description": "Automatische Anmeldung und Profilerstellung mittels Windows Credentinals SSO",
+          "name": "W10/11 - Outlook_ExchangeZeroConf [BSSE]",
+          "platforms": "windows10",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "settingCount": 1,
+          "technologies": "mdm",
+          "templateReference": {
+                    "templateId": "",
+                    "templateFamily": "none",
+                    "templateDisplayName": null,
+                    "templateDisplayVersion": null
+          },
+          "settings": [
+                    {
+                              "id": "0",
+                              "settingInstance": {
+                                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                        "settingDefinitionId": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_automaticallyconfigureprofilebasedonactive",
+                                        "settingInstanceTemplateReference": null,
+                                        "choiceSettingValue": {
+                                                  "settingValueTemplateReference": null,
+                                                  "value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_automaticallyconfigureprofilebasedonactive_1",
+                                                  "children": []
+                                        }
+                              }
+                    }
+          ],
+          "assignments": [
+                    {
+                              "source": "policySets",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    }
+          ]
+}

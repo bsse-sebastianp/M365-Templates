@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Erstelle lokalen Admin",
+          "description": "",
+          "scriptContent": "JHB3PUNvbnZlcnRUby1TZWN1cmVTdHJpbmcgLVN0cmluZyAiTDNocjNyIW5TY2h1bDMiIC1Bc1BsYWluVGV4dCAtRm9yY2UNCiRNeVVzZXI9TmV3LUxvY2FsVXNlciAtTmFtZSBBZG1pbiAtRGVzY3JpcHRpb24gIkxva2FsZXIgQWRtaW5pc3RyYXRvciIgLUFjY291bnROZXZlckV4cGlyZXMgLVBhc3N3b3JkICRwdyAtVXNlck1heU5vdENoYW5nZVBhc3N3b3JkIC1QYXNzd29yZE5ldmVyRXhwaXJlcw0KJE15R3JvdXA9R2V0LUxvY2FsR3JvdXAgQWRtaW4qDQpBZGQtTG9jYWxHcm91cE1lbWJlciAtR3JvdXAgJE15R3JvdXAgLU1lbWJlciAkTXlVc2Vy",
+          "runAsAccount": "system",
+          "fileName": "CreateLocalAdminUser.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

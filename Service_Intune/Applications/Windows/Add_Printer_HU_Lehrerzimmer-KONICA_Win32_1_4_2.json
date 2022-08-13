@@ -1,0 +1,139 @@
+{
+          "@odata.type": "#microsoft.graph.win32LobApp",
+          "displayName": "Add_Printer_HU_Lehrerzimmer-KONICA",
+          "publisher": "BSSE GmbH",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": null,
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "Add_Printer.1.4.2.intunewin",
+          "size": 1056,
+          "installCommandLine": "Add_Printer.1.4.2.cmd /i vs-edu01 Lehrerzimmer.Grossraumkopierer",
+          "uninstallCommandLine": "Add_Printer.1.4.2.cmd /u vs-edu01 Lehrerzimmer.Grossraumkopierer",
+          "applicableArchitectures": "x86,x64",
+          "minimumFreeDiskSpaceInMB": 2,
+          "minimumMemoryInMB": 3,
+          "minimumNumberOfProcessors": null,
+          "minimumCpuSpeedInMHz": null,
+          "msiInformation": null,
+          "setupFilePath": "Add_Printer.1.4.2.cmd",
+          "minimumSupportedWindowsRelease": "1607",
+          "displayVersion": "1.4.2",
+          "allowAvailableUninstall": false,
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v8_1": false,
+                    "v10_0": false,
+                    "v10_1607": true,
+                    "v10_1703": false,
+                    "v10_1709": false,
+                    "v10_1803": false,
+                    "v10_1809": false,
+                    "v10_1903": false,
+                    "v10_1909": false,
+                    "v10_2004": false,
+                    "v10_2H20": false,
+                    "v10_21H1": false
+          },
+          "detectionRules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+                              "path": "C:\\Install\\BSSE GmbH\\PrintConnector\\Lehrerzimmer.Grossraumkopierer",
+                              "fileOrFolderName": "Lehrerzimmer.Grossraumkopierer.txt",
+                              "check32BitOn64System": false,
+                              "detectionType": "exists",
+                              "operator": "notConfigured",
+                              "detectionValue": null
+                    }
+          ],
+          "requirementRules": [],
+          "rules": [
+                    {
+                              "@odata.type": "#microsoft.graph.win32LobAppFileSystemRule",
+                              "ruleType": "detection",
+                              "path": "C:\\Install\\BSSE GmbH\\PrintConnector\\Lehrerzimmer.Grossraumkopierer",
+                              "fileOrFolderName": "Lehrerzimmer.Grossraumkopierer.txt",
+                              "check32BitOn64System": false,
+                              "operationType": "exists",
+                              "operator": "notConfigured",
+                              "comparisonValue": null
+                    }
+          ],
+          "installExperience": {
+                    "runAsAccount": "system",
+                    "deviceRestartBehavior": "force"
+          },
+          "returnCodes": [
+                    {
+                              "returnCode": 0,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 1707,
+                              "type": "success"
+                    },
+                    {
+                              "returnCode": 3010,
+                              "type": "softReboot"
+                    },
+                    {
+                              "returnCode": 1641,
+                              "type": "hardReboot"
+                    },
+                    {
+                              "returnCode": 1618,
+                              "type": "retry"
+                    }
+          ],
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "DEV-Autopilot"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "restartSettings": null,
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "HU Pool Lehrerst\u00fctzpunkt"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+                                        "notifications": "showAll",
+                                        "installTimeSettings": null,
+                                        "deliveryOptimizationPriority": "foreground",
+                                        "restartSettings": {
+                                                  "gracePeriodInMinutes": 5,
+                                                  "countdownDisplayBeforeRestartInMinutes": 3,
+                                                  "restartNotificationSnoozeDurationInMinutes": null
+                                        }
+                              }
+                    }
+          ]
+}

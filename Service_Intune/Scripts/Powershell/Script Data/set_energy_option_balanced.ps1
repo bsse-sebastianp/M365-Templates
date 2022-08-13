@@ -1,0 +1,2 @@
+powercfg /SETACTIVE SCHEME_BALANCED
+Exit 0

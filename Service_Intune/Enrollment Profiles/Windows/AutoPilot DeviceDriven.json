@@ -1,0 +1,34 @@
+{
+          "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+          "displayName": "AutoPilot DeviceDriven",
+          "description": "",
+          "language": "de-DE",
+          "enrollmentStatusScreenSettings": null,
+          "extractHardwareHash": false,
+          "deviceNameTemplate": "%SERIAL%",
+          "deviceType": "windowsPc",
+          "enableWhiteGlove": false,
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "managementServiceAppId": null,
+          "outOfBoxExperienceSettings": {
+                    "hidePrivacySettings": true,
+                    "hideEULA": true,
+                    "userType": "standard",
+                    "deviceUsageType": "shared",
+                    "skipKeyboardSelectionPage": false,
+                    "hideEscapeLink": true
+          },
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "AutoPilot AD Registrierung - Device Driven"
+                              }
+                    }
+          ]
+}

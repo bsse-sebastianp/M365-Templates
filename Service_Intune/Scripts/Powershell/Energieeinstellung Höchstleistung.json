@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "Energieeinstellung H\u00f6chstleistung",
+          "description": "",
+          "scriptContent": "cG93ZXJjZmcgL1NFVEFDVElWRSBTQ0hFTUVfTUlODQpFeGl0IDA=",
+          "runAsAccount": "system",
+          "fileName": "set_energy_option_high_Performance.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

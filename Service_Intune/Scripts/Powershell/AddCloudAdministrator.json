@@ -1,0 +1,13 @@
+{
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceManagementScripts/$entity",
+          "enforceSignatureCheck": false,
+          "runAs32Bit": false,
+          "displayName": "AddCloudAdministrator",
+          "description": "",
+          "scriptContent": "bmV0IGxvY2FsZ3JvdXAgQWRtaW5pc3RyYXRvcmVuIC9hZGQgIkF6dXJlQURcQWRtaW5pc3RyYXRvckBla3MtaGFuYXUuZGUi",
+          "runAsAccount": "system",
+          "fileName": "AddCloudAdmin.ps1",
+          "roleScopeTagIds": [
+                    "0"
+          ]
+}

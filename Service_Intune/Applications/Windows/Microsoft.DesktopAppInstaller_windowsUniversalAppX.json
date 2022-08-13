@@ -1,0 +1,60 @@
+{
+          "@odata.type": "#microsoft.graph.windowsUniversalAppX",
+          "displayName": "Microsoft.DesktopAppInstaller",
+          "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": "",
+          "informationUrl": null,
+          "owner": "",
+          "developer": "",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "committedContentVersion": "1",
+          "fileName": "MICROSOFT.DESKTOPAPPINSTALLER_2021.1207.203.0_NEUTRAL___8WEKYB3D8BBWE.APPXBUNDLE",
+          "size": 45459440,
+          "applicableArchitectures": "x86,x64,arm,arm64",
+          "applicableDeviceTypes": "desktop,mobile,holographic,team",
+          "identityName": "Microsoft.DesktopAppInstaller",
+          "identityPublisherHash": "8wekyb3d8bbwe",
+          "identityResourceIdentifier": null,
+          "isBundle": true,
+          "identityVersion": "2021.1207.203.0",
+          "minimumSupportedOperatingSystem": {
+                    "v8_0": false,
+                    "v8_1": false,
+                    "v10_0": true,
+                    "v10_1607": false,
+                    "v10_1703": false,
+                    "v10_1709": false,
+                    "v10_1803": false,
+                    "v10_1809": false,
+                    "v10_1903": false,
+                    "v10_1909": false,
+                    "v10_2004": false,
+                    "v10_2H20": false,
+                    "v10_21H1": false
+          },
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Verwaltung"
+                              },
+                              "settings": {
+                                        "@odata.type": "#microsoft.graph.windowsUniversalAppXAppAssignmentSettings",
+                                        "useDeviceContext": false
+                              }
+                    }
+          ]
+}

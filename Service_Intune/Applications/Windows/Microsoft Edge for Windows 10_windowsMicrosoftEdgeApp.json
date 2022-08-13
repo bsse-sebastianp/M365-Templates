@@ -1,0 +1,45 @@
+{
+          "@odata.type": "#microsoft.graph.windowsMicrosoftEdgeApp",
+          "displayName": "Microsoft Edge for Windows 10",
+          "publisher": "Microsoft",
+          "largeIcon": null,
+          "isFeatured": false,
+          "privacyInformationUrl": "https://privacy.microsoft.com/en-US/privacystatement",
+          "informationUrl": "https://www.microsoft.com/en-us/windows/microsoft-edge",
+          "owner": "",
+          "developer": "Microsoft",
+          "notes": "",
+          "uploadState": 1,
+          "publishingState": "published",
+          "isAssigned": true,
+          "roleScopeTagIds": [],
+          "dependentAppCount": 0,
+          "supersedingAppCount": 0,
+          "supersededAppCount": 0,
+          "channel": "stable",
+          "displayLanguageLocale": null,
+          "assignments": [
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "policySets",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W11_Verwaltungsrechner"
+                              }
+                    },
+                    {
+                              "intent": "required",
+                              "settings": null,
+                              "source": "direct",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Software Standard"
+                              }
+                    }
+          ]
+}

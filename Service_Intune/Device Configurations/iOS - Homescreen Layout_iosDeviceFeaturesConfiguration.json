@@ -1,0 +1,170 @@
+{
+          "@odata.type": "#microsoft.graph.iosDeviceFeaturesConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "iOS - Homescreen Layout",
+          "displayName": "iOS - Homescreen Layout",
+          "assetTagTemplate": null,
+          "contentFilterSettings": null,
+          "lockScreenFootnote": null,
+          "homeScreenGridWidth": 4,
+          "homeScreenGridHeight": 5,
+          "singleSignOnSettings": null,
+          "wallpaperDisplayLocation": "notConfigured",
+          "wallpaperImage": null,
+          "singleSignOnExtension": null,
+          "iosSingleSignOnExtension": null,
+          "airPrintDestinations": [],
+          "homeScreenDockIcons": [
+                    {
+                              "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                              "displayName": "Safari",
+                              "bundleID": "com.apple.mobilesafari",
+                              "isWebClip": false
+                    },
+                    {
+                              "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                              "displayName": "Mail",
+                              "bundleID": "com.apple.mobilemail",
+                              "isWebClip": false
+                    },
+                    {
+                              "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                              "displayName": "Files",
+                              "bundleID": "com.apple.DocumentsApp",
+                              "isWebClip": false
+                    },
+                    {
+                              "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                              "displayName": "Microsoft OneDrive",
+                              "bundleID": "com.microsoft.skydrive",
+                              "isWebClip": false
+                    },
+                    {
+                              "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                              "displayName": "Microsoft Edge",
+                              "bundleID": "com.microsoft.msedge",
+                              "isWebClip": false
+                    },
+                    {
+                              "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                              "displayName": "Microsoft Outlook",
+                              "bundleID": "com.microsoft.Office.Outlook",
+                              "isWebClip": false
+                    }
+          ],
+          "homeScreenPages": [
+                    {
+                              "displayName": null,
+                              "icons": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Calendar",
+                                                  "bundleID": "com.apple.mobilecal",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Clock",
+                                                  "bundleID": "com.apple.mobiletimer",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Photos",
+                                                  "bundleID": "com.apple.mobileslideshow",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Camera",
+                                                  "bundleID": "com.apple.camera",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Reminders",
+                                                  "bundleID": "com.apple.reminders",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Notes",
+                                                  "bundleID": "com.apple.mobilenotes",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Contacts",
+                                                  "bundleID": "com.apple.MobileAddressBook",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Voice Memos",
+                                                  "bundleID": "com.apple.VoiceMemos",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Maps",
+                                                  "bundleID": "com.apple.Maps",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Books",
+                                                  "bundleID": "com.apple.iBooks",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Podcasts",
+                                                  "bundleID": "com.apple.podcasts",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Measure",
+                                                  "bundleID": "com.apple.measure",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Settings",
+                                                  "bundleID": "com.apple.Preferences",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "Music",
+                                                  "bundleID": "com.apple.Music",
+                                                  "isWebClip": false
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.iosHomeScreenApp",
+                                                  "displayName": "ANTON - Schule - Lernen",
+                                                  "bundleID": "com.solocode.anton",
+                                                  "isWebClip": false
+                                        }
+                              ]
+                    }
+          ],
+          "notificationSettings": [],
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_iOS_Poolgeraete"
+                              }
+                    }
+          ]
+}

@@ -1,0 +1,46 @@
+{
+          "@odata.type": "#microsoft.graph.sharedPCConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": null,
+          "displayName": "Mehrere Benutzer und Gast Konto",
+          "allowedAccounts": "notConfigured",
+          "localStorage": "enabled",
+          "allowLocalStorage": true,
+          "setAccountManager": "enabled",
+          "disableAccountManager": false,
+          "setEduPolicies": "disabled",
+          "disableEduPolicies": true,
+          "setPowerPolicies": "disabled",
+          "disablePowerPolicies": true,
+          "signInOnResume": "notConfigured",
+          "disableSignInOnResume": false,
+          "enabled": true,
+          "idleTimeBeforeSleepInSeconds": null,
+          "kioskAppDisplayName": null,
+          "kioskAppUserModelId": null,
+          "maintenanceStartTime": "02:00:00.0000000",
+          "fastFirstSignIn": "notConfigured",
+          "accountManagerPolicy": {
+                    "accountDeletionPolicy": "diskSpaceThresholdOrInactiveThreshold",
+                    "cacheAccountsAboveDiskFreePercentage": 80,
+                    "inactiveThresholdDays": 3,
+                    "removeAccountsBelowDiskFreePercentage": 50
+          },
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "AutoPilot AD Registrierung - Device Driven"
+                              }
+                    }
+          ]
+}

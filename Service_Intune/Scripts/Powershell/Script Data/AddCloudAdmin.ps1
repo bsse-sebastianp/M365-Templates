@@ -1,0 +1,1 @@
+net localgroup Administratoren /add "AzureAD\Administrator@eks-hanau.de"

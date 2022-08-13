@@ -1,0 +1,361 @@
+{
+          "displayName": "W10 - Administrative Richtlinien",
+          "description": "Konfigurationsprofil f\u00fcr Administrative Richtlinien, die auf allen Windowsger\u00e4ten angewendet wird.",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "policyConfigurationIngestionType": "builtIn",
+          "definitionValues": [
+                    {
+                              "createdDateTime": "2021-10-21T15:13:32.6966666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "556c2d88-8ead-43ad-a504-e3e62dde8d1b",
+                              "lastModifiedDateTime": "2021-10-21T15:13:32.6988381Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Silently sign in users to the OneDrive sync app with their Windows credentials",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "0de8c88e-9535-4d96-b6f7-52f56beaa2c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "81c07ba0-7512-402d-b1f6-00856975cfab",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:33.1666666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "cb7a2538-b316-422b-ba67-e409ddab0268",
+                              "lastModifiedDateTime": "2021-10-21T15:13:33.1987886Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Exclude specific kinds of files from being uploaded",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "cf0c2ff8-f8b3-49fe-93ee-7cb67012afec",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "29814681-ac59-4920-b4a9-07b380e5b530",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueList",
+                                                  "lastModifiedDateTime": "2021-10-21T15:13:33.1987886Z",
+                                                  "createdDateTime": "2021-10-21T15:13:33.2033333Z",
+                                                  "id": "3114f4ad-5536-468f-9e17-1ae452fed2aa",
+                                                  "values": [
+                                                            {
+                                                                      "name": "*.lnk",
+                                                                      "value": null
+                                                            },
+                                                            {
+                                                                      "name": "*.url",
+                                                                      "value": null
+                                                            }
+                                                  ],
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationListBox",
+                                                            "label": "Keywords: ",
+                                                            "id": "adc8f759-4405-417a-a8d9-2a4ea6df2e1d",
+                                                            "lastModifiedDateTime": "2021-04-13T18:45:37.1933333Z",
+                                                            "explicitValue": false,
+                                                            "valuePrefix": null
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:33.7433333Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "4f94e375-5885-4902-a2db-6e106c65d3ec",
+                              "lastModifiedDateTime": "2021-10-21T15:13:33.7612948Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Specify the system sleep timeout (plugged in)",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "8f8dd76a-d24b-48c6-90ac-590ccb7da3c5",
+                                        "minDeviceCspVersion": "6.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "09d1c36f-18fc-4a8b-abe3-09af371d54d2",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+                                                  "lastModifiedDateTime": "2021-10-21T15:13:33.7612948Z",
+                                                  "createdDateTime": "2021-10-21T15:13:33.7533333Z",
+                                                  "id": "5a0883f4-a357-4581-af9f-227dc565fbe8",
+                                                  "value": 1800,
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationDecimalTextBox",
+                                                            "label": "System Sleep Timeout (seconds):",
+                                                            "id": "d5a5e7c0-46d8-44ee-9211-4797b3750342",
+                                                            "lastModifiedDateTime": "2019-07-10T18:06:14.8007366Z",
+                                                            "defaultValue": 1,
+                                                            "spin": true,
+                                                            "spinStep": 1,
+                                                            "required": true,
+                                                            "minValue": 0,
+                                                            "maxValue": 4294967295
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:34.2666666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "0040f463-e4d3-48ee-b96d-7b5abc683c51",
+                              "lastModifiedDateTime": "2021-10-21T15:17:10.5413314Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Silently move Windows known folders to OneDrive",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": true,
+                                        "groupPolicyCategoryId": "0de8c88e-9535-4d96-b6f7-52f56beaa2c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "39147fa2-6c5e-437b-8264-19b50b891709",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+                                                  "lastModifiedDateTime": "2021-10-21T15:17:10.5413314Z",
+                                                  "createdDateTime": "2021-10-21T15:13:34.28Z",
+                                                  "id": "34b38ea6-40a5-4a7f-aa0e-dc045fc64ac2",
+                                                  "value": "843d9015-bb01-4585-a589-f54c556e054c",
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationTextBox",
+                                                            "label": "Tenant ID:",
+                                                            "id": "fbefbbdf-5382-477c-8b6c-71f4a06e2805",
+                                                            "lastModifiedDateTime": "2019-07-10T18:06:14.8007366Z",
+                                                            "defaultValue": "",
+                                                            "required": true,
+                                                            "maxLength": 2000
+                                                  }
+                                        },
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+                                                  "lastModifiedDateTime": "2021-10-21T15:17:10.5413314Z",
+                                                  "createdDateTime": "2021-10-21T15:13:34.3233333Z",
+                                                  "id": "16e551c4-eb6e-4949-99ec-9a5eafe347a0",
+                                                  "value": "0",
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationDropdownList",
+                                                            "label": "Show notification to users after folders have been redirected:",
+                                                            "id": "35c82072-a93b-4022-be14-8684c2f6fcc2",
+                                                            "lastModifiedDateTime": "2019-07-10T18:06:14.8007366Z",
+                                                            "required": false,
+                                                            "defaultItem": {
+                                                                      "displayName": "No",
+                                                                      "value": "0"
+                                                            },
+                                                            "items": [
+                                                                      {
+                                                                                "displayName": "No",
+                                                                                "value": "0"
+                                                                      },
+                                                                      {
+                                                                                "displayName": "Yes",
+                                                                                "value": "1"
+                                                                      }
+                                                            ]
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:34.8066666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "bda0d481-77d0-412c-9ad2-15c097891fcd",
+                              "lastModifiedDateTime": "2021-10-21T15:13:34.8082136Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Require a password when a computer wakes (on battery)",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "8f8dd76a-d24b-48c6-90ac-590ccb7da3c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "09359968-e4da-4393-9ff4-25c5b1148bdb",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:35.2933333Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "a5097b46-a19b-4bcb-9d1c-edfc9fb2d712",
+                              "lastModifiedDateTime": "2021-10-21T15:13:35.2925519Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Require a password when a computer wakes (plugged in)",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "8f8dd76a-d24b-48c6-90ac-590ccb7da3c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "9fcbf93e-504c-471d-a3b8-4ebb7e89d9dd",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:35.74Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "d7df1cc0-07da-4f26-b6e7-1bed809d6aed",
+                              "lastModifiedDateTime": "2021-10-21T15:13:35.7456588Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Specify the system sleep timeout (on battery)",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxBacked",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "8f8dd76a-d24b-48c6-90ac-590ccb7da3c5",
+                                        "minDeviceCspVersion": "6.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "ccf13f5c-5162-4aff-8d60-87c2e4c13106",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": [
+                                        {
+                                                  "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+                                                  "lastModifiedDateTime": "2021-10-21T15:13:35.7456588Z",
+                                                  "createdDateTime": "2021-10-21T15:13:35.75Z",
+                                                  "id": "85a09f04-c95a-4c61-a471-e71e2eae783d",
+                                                  "value": 1800,
+                                                  "presentation": {
+                                                            "@odata.type": "#microsoft.graph.groupPolicyPresentationDecimalTextBox",
+                                                            "label": "System Sleep Timeout (seconds):",
+                                                            "id": "9c3b164b-64d5-47d1-abd7-7455077b2a31",
+                                                            "lastModifiedDateTime": "2019-07-10T18:06:14.8007366Z",
+                                                            "defaultValue": 1,
+                                                            "spin": true,
+                                                            "spinStep": 1,
+                                                            "required": true,
+                                                            "minValue": 0,
+                                                            "maxValue": 4294967295
+                                                  }
+                                        }
+                              ]
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:36.26Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "410056f0-38a6-47bd-8968-5410dc7af8e6",
+                              "lastModifiedDateTime": "2021-10-21T15:13:36.2613132Z",
+                              "definition": {
+                                        "classType": "user",
+                                        "displayName": "Prevent users from syncing personal OneDrive accounts",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "0de8c88e-9535-4d96-b6f7-52f56beaa2c5",
+                                        "minDeviceCspVersion": null,
+                                        "minUserCspVersion": "5.0",
+                                        "version": "1.0",
+                                        "id": "e03416be-f01b-4377-9caa-a7f6e812f5e5",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:36.7266666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "21b572bf-4cd5-4b16-a88d-71248bb29d91",
+                              "lastModifiedDateTime": "2021-10-21T15:13:36.7300267Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Prevent users from redirecting their Windows known folders to their PC",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "0de8c88e-9535-4d96-b6f7-52f56beaa2c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "2ce2f507-aae8-49a1-98ce-dc3faafcd331",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    },
+                    {
+                              "createdDateTime": "2021-10-21T15:13:37.2066666Z",
+                              "enabled": true,
+                              "configurationType": "policy",
+                              "id": "488951f6-71da-4b48-ae83-1da6c4559890",
+                              "lastModifiedDateTime": "2021-10-21T15:13:37.2144393Z",
+                              "definition": {
+                                        "classType": "machine",
+                                        "displayName": "Use OneDrive Files On-Demand",
+                                        "explainText": null,
+                                        "categoryPath": null,
+                                        "supportedOn": null,
+                                        "policyType": "admxIngested",
+                                        "hasRelatedDefinitions": false,
+                                        "groupPolicyCategoryId": "0de8c88e-9535-4d96-b6f7-52f56beaa2c5",
+                                        "minDeviceCspVersion": "5.0",
+                                        "minUserCspVersion": null,
+                                        "version": "1.0",
+                                        "id": "61b07a01-7e60-4127-b086-f6b32458a5c5",
+                                        "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+                              },
+                              "presentationValues": []
+                    }
+          ],
+          "assignments": [
+                    {
+                              "lastModifiedDateTime": "2021-10-21T15:17:11.0493512Z",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "_W10_alleGeraete"
+                              }
+                    }
+          ]
+}

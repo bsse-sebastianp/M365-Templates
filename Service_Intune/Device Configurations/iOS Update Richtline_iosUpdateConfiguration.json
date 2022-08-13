@@ -1,0 +1,32 @@
+{
+          "@odata.type": "#microsoft.graph.iosUpdateConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "",
+          "displayName": "iOS Update Richtline",
+          "isEnabled": false,
+          "activeHoursStart": "00:00:00.0000000",
+          "activeHoursEnd": "00:00:00.0000000",
+          "desiredOsVersion": null,
+          "scheduledInstallDays": [],
+          "utcTimeOffsetInMinutes": null,
+          "enforcedSoftwareUpdateDelayInDays": null,
+          "updateScheduleType": "alwaysUpdate",
+          "customUpdateTimeWindows": [],
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "Alle DEP Intune iOS Ger\u00e4te"
+                              }
+                    }
+          ]
+}

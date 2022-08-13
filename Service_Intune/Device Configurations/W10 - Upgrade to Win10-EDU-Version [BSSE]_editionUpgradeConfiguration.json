@@ -1,0 +1,28 @@
+{
+          "@odata.type": "#microsoft.graph.editionUpgradeConfiguration",
+          "roleScopeTagIds": [
+                    "0"
+          ],
+          "deviceManagementApplicabilityRuleOsEdition": null,
+          "deviceManagementApplicabilityRuleOsVersion": null,
+          "deviceManagementApplicabilityRuleDeviceMode": null,
+          "description": "Aktiviert Windows 10 Education MAK",
+          "displayName": "W10 - Upgrade to Win10-EDU-Version [BSSE]",
+          "licenseType": "productKey",
+          "targetEdition": "windows10Education",
+          "license": "",
+          "productKey": "#####-#####-#####-#####-#BT4Q",
+          "windowsSMode": "noRestriction",
+          "assignments": [
+                    {
+                              "source": "direct",
+                              "intent": "apply",
+                              "target": {
+                                        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                                        "deviceAndAppManagementAssignmentFilterId": null,
+                                        "deviceAndAppManagementAssignmentFilterType": "none",
+                                        "groupName": "HP Pavilion x360"
+                              }
+                    }
+          ]
+}
