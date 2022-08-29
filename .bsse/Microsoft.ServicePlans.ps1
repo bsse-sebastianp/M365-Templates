@@ -1,9 +1,7 @@
 # https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 
-
-
-$MicrosoftServicePlan = @{
-    unknown=""
+enum MicrosoftServicePlan {
+    unknown=" "
     AudioConferencing="3e26ee1f-8a5f-4d52-aee2-b81ce45c8f40"
     AzureActiveDirectoryPremium_P1="41781fb2-bc02-4b7c-bd55-b576c07bb09d"
     AzureActiveDirectoryPremiumP2="eec0eb4f-6444-4f95-aba0-50c24d67f998"
